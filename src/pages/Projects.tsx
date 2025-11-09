@@ -1,49 +1,32 @@
-import { projects } from "@/data/projects";
+export type Project = {
+    title: string;
+    summary: string;
+    tags: string[];
+    repo?: string;
+    link?: string;
+};
 
-export default function Projects() {
-  return (
-    <section className="grid gap-6">
-      <h2 className="text-2xl font-semibold">Projets</h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((p) => (
-          <article
-            key={p.title}
-            className="border rounded-2xl p-4 hover:shadow"
-          >
-            <h3 className="font-semibold">{p.title}</h3>
-            <p className="text-sm text-muted-foreground">{p.summary}</p>
-            <div className="mt-3 flex flex-wrap gap-2 text-xs">
-              {p.tags.map((t) => (
-                <span key={t} className="border rounded px-2 py-0.5">
-                  {t}
-                </span>
-              ))}
-            </div>
-            <div className="mt-4 flex gap-3 text-sm">
-              {p.link && (
-                <a
-                  className="underline"
-                  href={p.link}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Demo
-                </a>
-              )}
-              {p.repo && (
-                <a
-                  className="underline"
-                  href={p.repo}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Code
-                </a>
-              )}
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
-}
+export const projects: Project[] = [
+    {
+        title: "TutorIA – Détection d’émotions et d’engagement en classe",
+        summary:
+            "Système IA pour détecter les émotions et l’engagement des élèves à partir d’images (FER2013, CNN, OpenFace).",
+        tags: ["React", "Python", "Deep Learning", "MediaPipe"],
+        repo: "https://github.com/jdabachine3378-svg/TutorIA",
+    },
+    {
+        title: "Système Solaire Éducatif 3D",
+        summary:
+            "Application Unity interactive pour l’apprentissage du système solaire avec animations et quiz.",
+        tags: ["Unity", "C#", "3D", "Éducation"],
+        link: "https://solar3d.vercel.app",
+        repo: "https://github.com/jdabachine3378-svg/solar-system-edu",
+    },
+    {
+        title: "EcoShop – Analyse produits durables",
+        summary:
+            "Application web pour scanner des produits et afficher leur impact environnemental via l’API OpenFoodFacts.",
+        tags: ["React", "API REST", "Node.js"],
+        repo: "https://github.com/jdabachine3378-svg/ecoshop",
+    },
+];
