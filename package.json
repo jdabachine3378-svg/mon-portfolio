@@ -11,7 +11,7 @@
     "format": "prettier -w ."
   },
   "engines": {
-    "node": "22.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.11",
