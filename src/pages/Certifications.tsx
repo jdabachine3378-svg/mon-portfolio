@@ -1,4 +1,4 @@
-import { certifications } from "@/data/certifications.";
+import { certifications } from "@/data/certifications";
 import { Helmet } from "react-helmet-async";
 
 export default function CertificationsPage() {

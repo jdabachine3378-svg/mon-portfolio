@@ -1,4 +1,4 @@
-import type { Certification } from "@/data/certifications.";
+import type { Certification } from "@/data/certifications";
 import clsx from "clsx";
 
 function mmYYYY(s: string) {
