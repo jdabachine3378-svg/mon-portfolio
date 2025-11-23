@@ -1,13 +1,16 @@
-https://jamila-portfolio.surge.sh/
+
+
+## lien :https://jamila-portfolio.surge.sh/
 # React + TypeScript + Vite
 
+<img width="1755" height="2152" alt="image" src="https://github.com/user-attachments/assets/f28c62f7-9cba-4939-807f-9ef5060323b2" />
+<img width="1755" height="1405" alt="image" src="https://github.com/user-attachments/assets/92dfb4ae-25c3-4530-bf6f-a233337ddffb" />
+<img width="1755" height="1143" alt="image" src="https://github.com/user-attachments/assets/8e9a8cf1-418f-4cc2-aeb0-2d92fb82e9c1" />
+<img width="1755" height="1543" alt="image" src="https://github.com/user-attachments/assets/c0cebfca-8cb6-418f-b227-add18fb39629" />
+<img width="1755" height="1334" alt="image" src="https://github.com/user-attachments/assets/4f6c3081-6bc9-4318-a6b8-f9c4dd71e92e" />
+<img width="1755" height="1037" alt="image" src="https://github.com/user-attachments/assets/2619d700-470e-44d1-a663-bb18d0c7386c" />
 
-<img width="1703" height="1046" alt="image" src="https://github.com/user-attachments/assets/0881fb10-edc7-4187-ae65-828b819303ee" />
 
-<img width="1722" height="899" alt="image" src="https://github.com/user-attachments/assets/20258925-3b05-4e57-ac60-635697cf6494" />
-<img width="1485" height="813" alt="image" src="https://github.com/user-attachments/assets/360869ea-90a7-4e3e-9692-e4658f27f87f" />
-<img width="1755" height="1384" alt="image" src="https://github.com/user-attachments/assets/0c80db69-6dbd-4260-a12b-4afc0f3dbf10" />
-<img width="1569" height="872" alt="image" src="https://github.com/user-attachments/assets/cd7f7782-10b4-4467-9cb9-74a303ecf842" />
 
-<img width="1755" height="1058" alt="image" src="https://github.com/user-attachments/assets/62129616-3c43-47cd-a045-23ad962a9659" />
+
 
